@@ -1,0 +1,24 @@
+div.person{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.active{
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px black;
+    box-sizing: border-box;
+    background-color: rgb(150, 5, 155);
+    transition: all 300ms linear;
+}
+.radius{
+    border-radius: 20px;
+}
